@@ -1,5 +1,6 @@
 ﻿namespace NeoGenesis.Models;
 
-public class Class {
-
+public class Sector
+{
+    
 }
