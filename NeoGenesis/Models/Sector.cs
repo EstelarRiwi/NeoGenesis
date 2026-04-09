@@ -19,9 +19,9 @@ public class Sector
 
      public Sector(int id, string name)
      {
-
          Id = id;
          Name = name;
+         Zones = new List<Zone>();
      }
      
      
