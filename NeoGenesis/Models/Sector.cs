@@ -6,7 +6,6 @@ public class Sector
 {
     public int Id { get; set; }
     
-    [Required]
     [MaxLength(100)]
     public String Name { get; set; }
     
