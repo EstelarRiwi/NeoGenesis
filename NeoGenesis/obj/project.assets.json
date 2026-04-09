@@ -8,32 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\minej\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\TZERK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
+      "projectUniqueName": "C:\\Users\\TZERK\\RiderProjects\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
       "projectName": "NeoGenesis",
-      "projectPath": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
-      "packagesPath": "C:\\Users\\minej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\obj\\",
+      "projectPath": "C:\\Users\\TZERK\\RiderProjects\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
+      "packagesPath": "C:\\Users\\TZERK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TZERK\\RiderProjects\\NeoGenesis\\NeoGenesis\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\minej\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\TZERK\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
