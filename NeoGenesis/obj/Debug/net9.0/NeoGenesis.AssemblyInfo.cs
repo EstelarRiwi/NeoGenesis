@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeoGenesis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd524c7ab22c32dd71b67b47f69485560e792fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3766560ca27c861e1cac1e03d13febd46e3d52e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeoGenesis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeoGenesis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
