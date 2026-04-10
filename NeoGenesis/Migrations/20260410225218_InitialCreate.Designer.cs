@@ -11,7 +11,7 @@ using NeoGenesis.Data;
 namespace NeoGenesis.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20260410203150_InitialCreate")]
+    [Migration("20260410225218_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
