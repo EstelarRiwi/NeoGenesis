@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using NeoGenesis.Models;
 
 namespace NeoGenesis.Data;
@@ -17,9 +18,15 @@ public class DataContext : DbContext
     {
         if (!options.IsConfigured)
         {
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
+
             options.UseMySql(
-                "server=localhost;database=db_robinson_andres_cortes;user=root;password=",
-                ServerVersion.AutoDetect("server=localhost;database=db_robinson_andres_cortes;user=root;password=")
+                connectionString,
+                ServerVersion.AutoDetect(connectionString)
             );
         }
     }
