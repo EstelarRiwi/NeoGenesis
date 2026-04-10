@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Threading;
 
-class Program
+class menu
 {
     static void Main()
     {
