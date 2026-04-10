@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_rebase_[Changes]1" date="1775858786440" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.NeoGenesis/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="NeoGenesis/obj/Debug/net9.0/NeoGenesis.assets.cache" />
+    <option name="AFTER_PATH" value="NeoGenesis/obj/Debug/net9.0/NeoGenesis.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NeoGenesis/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/NeoGenesis.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NeoGenesis/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/NeoGenesis.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="NeoGenesis/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="NeoGenesis/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.NeoGenesis/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/project.nuget.cache" />
+  </binary>
+</changelist>

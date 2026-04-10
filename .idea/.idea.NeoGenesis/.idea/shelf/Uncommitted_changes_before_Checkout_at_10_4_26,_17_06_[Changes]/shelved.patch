@@ -1,0 +1,19 @@
+Index: NeoGenesis/NeoGenesis.csproj
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><Project Sdk=\"Microsoft.NET.Sdk\">\n\n    <PropertyGroup>\n        <OutputType>Exe</OutputType>\n        <TargetFramework>net9.0</TargetFramework>\n        <ImplicitUsings>enable</ImplicitUsings>\n        <Nullable>enable</Nullable>\n    </PropertyGroup>\n\n    <ItemGroup>\n      <PackageReference Include=\"Microsoft.EntityFrameworkCore\" Version=\"9.0.0\" />\n      <PackageReference Include=\"Microsoft.EntityFrameworkCore.Tools\" Version=\"9.0.0\">\n        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>\n        <PrivateAssets>all</PrivateAssets>\n      </PackageReference>\n      <PackageReference Include=\"Microsoft.Extensions.Configuration.Json\" Version=\"10.0.5\" />\n      <PackageReference Include=\"Pomelo.EntityFrameworkCore.MySql\" Version=\"9.0.0\" />\n    </ItemGroup>\n\n    <ItemGroup>\n      <None Update=\"appsettings.json\">\n        <CopyToOutputDirectory>Always</CopyToOutputDirectory>\n      </None>\n    </ItemGroup>\n\n</Project>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/NeoGenesis/NeoGenesis.csproj b/NeoGenesis/NeoGenesis.csproj
+--- a/NeoGenesis/NeoGenesis.csproj	(revision 736aa3c9381f16a18245092dac496598f37a3531)
++++ b/NeoGenesis/NeoGenesis.csproj	(date 1775858786275)
+@@ -23,4 +23,8 @@
+       </None>
+     </ItemGroup>
+ 
++    <ItemGroup>
++      <Folder Include="obj\Debug\net9.0\" />
++    </ItemGroup>
++
+ </Project>

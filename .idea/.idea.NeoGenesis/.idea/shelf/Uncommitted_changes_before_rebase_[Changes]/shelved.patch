@@ -1,0 +1,232 @@
+Index: NeoGenesis/obj/rider.project.model.nuget.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17756997056053620
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/NeoGenesis/obj/rider.project.model.nuget.info b/NeoGenesis/obj/rider.project.model.nuget.info
+--- a/NeoGenesis/obj/rider.project.model.nuget.info	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/rider.project.model.nuget.info	(date 1775858721990)
+@@ -1,1 +1,1 @@
+-17756997056053620
+\ No newline at end of file
++17758587069293593
+\ No newline at end of file
+Index: NeoGenesis/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>17756997056053620
+===================================================================
+diff --git a/NeoGenesis/obj/rider.project.restore.info b/NeoGenesis/obj/rider.project.restore.info
+--- a/NeoGenesis/obj/rider.project.restore.info	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/rider.project.restore.info	(date 1775858722239)
+@@ -1,1 +1,1 @@
+-17756997056053620
+\ No newline at end of file
++17758587222318555
+\ No newline at end of file
+Index: NeoGenesis/obj/NeoGenesis.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"format\": 1,\n  \"restore\": {\n    \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\": {}\n  },\n  \"projects\": {\n    \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\": {\n      \"version\": \"1.0.0\",\n      \"restore\": {\n        \"projectUniqueName\": \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\",\n        \"projectName\": \"NeoGenesis\",\n        \"projectPath\": \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\",\n        \"packagesPath\": \"C:\\\\Users\\\\minej\\\\.nuget\\\\packages\\\\\",\n        \"outputPath\": \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\obj\\\\\",\n        \"projectStyle\": \"PackageReference\",\n        \"fallbackFolders\": [\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\n        ],\n        \"configFilePaths\": [\n          \"C:\\\\Users\\\\minej\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\n        ],\n        \"originalTargetFrameworks\": [\n          \"net9.0\"\n        ],\n        \"sources\": {\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\n          \"C:\\\\Program Files\\\\dotnet\\\\library-packs\": {},\n          \"https://api.nuget.org/v3/index.json\": {}\n        },\n        \"frameworks\": {\n          \"net9.0\": {\n            \"targetAlias\": \"net9.0\",\n            \"projectReferences\": {}\n          }\n        },\n        \"warningProperties\": {\n          \"warnAsError\": [\n            \"NU1605\"\n          ]\n        },\n        \"restoreAuditProperties\": {\n          \"enableAudit\": \"true\",\n          \"auditLevel\": \"low\",\n          \"auditMode\": \"direct\"\n        },\n        \"SdkAnalysisLevel\": \"9.0.300\"\n      },\n      \"frameworks\": {\n        \"net9.0\": {\n          \"targetAlias\": \"net9.0\",\n          \"imports\": [\n            \"net461\",\n            \"net462\",\n            \"net47\",\n            \"net471\",\n            \"net472\",\n            \"net48\",\n            \"net481\"\n          ],\n          \"assetTargetFallback\": true,\n          \"warn\": true,\n          \"frameworkReferences\": {\n            \"Microsoft.NETCore.App\": {\n              \"privateAssets\": \"all\"\n            }\n          },\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\9.0.312/PortableRuntimeIdentifierGraph.json\"\n        }\n      }\n    }\n  }\n}
+===================================================================
+diff --git a/NeoGenesis/obj/NeoGenesis.csproj.nuget.dgspec.json b/NeoGenesis/obj/NeoGenesis.csproj.nuget.dgspec.json
+--- a/NeoGenesis/obj/NeoGenesis.csproj.nuget.dgspec.json	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/NeoGenesis.csproj.nuget.dgspec.json	(date 1775858722231)
+@@ -1,32 +1,25 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj": {}
++    "/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj": {
++    "/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
++        "projectUniqueName": "/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj",
+         "projectName": "NeoGenesis",
+-        "projectPath": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
+-        "packagesPath": "C:\\Users\\minej\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\obj\\",
++        "projectPath": "/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj",
++        "packagesPath": "/home/csharp/.nuget/packages/",
++        "outputPath": "/home/csharp/AH/NeoGenesis/NeoGenesis/obj/",
+         "projectStyle": "PackageReference",
+-        "fallbackFolders": [
+-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+-        ],
+         "configFilePaths": [
+-          "C:\\Users\\minej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++          "/home/csharp/.nuget/NuGet/NuGet.Config"
+         ],
+         "originalTargetFrameworks": [
+           "net9.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+-          "C:\\Program Files\\dotnet\\library-packs": {},
+           "https://api.nuget.org/v3/index.json": {}
+         },
+         "frameworks": {
+@@ -45,7 +38,7 @@
+           "auditLevel": "low",
+           "auditMode": "direct"
+         },
+-        "SdkAnalysisLevel": "9.0.300"
++        "SdkAnalysisLevel": "9.0.200"
+       },
+       "frameworks": {
+         "net9.0": {
+@@ -66,7 +59,7 @@
+               "privateAssets": "all"
+             }
+           },
+-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
++          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+         }
+       }
+     }
+Index: NeoGenesis/obj/NeoGenesis.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\minej\\.nuget\\packages\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages</NuGetPackageFolders>\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">7.0.0</NuGetToolVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\n    <SourceRoot Include=\"C:\\Users\\minej\\.nuget\\packages\\\" />\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\n  </ItemGroup>\n</Project>
+===================================================================
+diff --git a/NeoGenesis/obj/NeoGenesis.csproj.nuget.g.props b/NeoGenesis/obj/NeoGenesis.csproj.nuget.g.props
+--- a/NeoGenesis/obj/NeoGenesis.csproj.nuget.g.props	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/NeoGenesis.csproj.nuget.g.props	(date 1775858722221)
+@@ -4,13 +4,12 @@
+     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\minej\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
++    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/csharp/.nuget/packages/</NuGetPackageRoot>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/csharp/.nuget/packages/</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">7.0.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\minej\.nuget\packages\" />
+-    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
++    <SourceRoot Include="/home/csharp/.nuget/packages/" />
+   </ItemGroup>
+ </Project>
+\ No newline at end of file
+Index: NeoGenesis/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"version\": 3,\n  \"targets\": {\n    \"net9.0\": {}\n  },\n  \"libraries\": {},\n  \"projectFileDependencyGroups\": {\n    \"net9.0\": []\n  },\n  \"packageFolders\": {\n    \"C:\\\\Users\\\\minej\\\\.nuget\\\\packages\\\\\": {},\n    \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\": {}\n  },\n  \"project\": {\n    \"version\": \"1.0.0\",\n    \"restore\": {\n      \"projectUniqueName\": \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\",\n      \"projectName\": \"NeoGenesis\",\n      \"projectPath\": \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\",\n      \"packagesPath\": \"C:\\\\Users\\\\minej\\\\.nuget\\\\packages\\\\\",\n      \"outputPath\": \"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\obj\\\\\",\n      \"projectStyle\": \"PackageReference\",\n      \"fallbackFolders\": [\n        \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\n      ],\n      \"configFilePaths\": [\n        \"C:\\\\Users\\\\minej\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\n      ],\n      \"originalTargetFrameworks\": [\n        \"net9.0\"\n      ],\n      \"sources\": {\n        \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\n        \"C:\\\\Program Files\\\\dotnet\\\\library-packs\": {},\n        \"https://api.nuget.org/v3/index.json\": {}\n      },\n      \"frameworks\": {\n        \"net9.0\": {\n          \"targetAlias\": \"net9.0\",\n          \"projectReferences\": {}\n        }\n      },\n      \"warningProperties\": {\n        \"warnAsError\": [\n          \"NU1605\"\n        ]\n      },\n      \"restoreAuditProperties\": {\n        \"enableAudit\": \"true\",\n        \"auditLevel\": \"low\",\n        \"auditMode\": \"direct\"\n      },\n      \"SdkAnalysisLevel\": \"9.0.300\"\n    },\n    \"frameworks\": {\n      \"net9.0\": {\n        \"targetAlias\": \"net9.0\",\n        \"imports\": [\n          \"net461\",\n          \"net462\",\n          \"net47\",\n          \"net471\",\n          \"net472\",\n          \"net48\",\n          \"net481\"\n        ],\n        \"assetTargetFallback\": true,\n        \"warn\": true,\n        \"frameworkReferences\": {\n          \"Microsoft.NETCore.App\": {\n            \"privateAssets\": \"all\"\n          }\n        },\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\9.0.312/PortableRuntimeIdentifierGraph.json\"\n      }\n    }\n  }\n}
+===================================================================
+diff --git a/NeoGenesis/obj/project.assets.json b/NeoGenesis/obj/project.assets.json
+--- a/NeoGenesis/obj/project.assets.json	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/project.assets.json	(date 1775858722225)
+@@ -8,32 +8,24 @@
+     "net9.0": []
+   },
+   "packageFolders": {
+-    "C:\\Users\\minej\\.nuget\\packages\\": {},
+-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
++    "/home/csharp/.nuget/packages/": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
++      "projectUniqueName": "/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj",
+       "projectName": "NeoGenesis",
+-      "projectPath": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj",
+-      "packagesPath": "C:\\Users\\minej\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\obj\\",
++      "projectPath": "/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj",
++      "packagesPath": "/home/csharp/.nuget/packages/",
++      "outputPath": "/home/csharp/AH/NeoGenesis/NeoGenesis/obj/",
+       "projectStyle": "PackageReference",
+-      "fallbackFolders": [
+-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+-      ],
+       "configFilePaths": [
+-        "C:\\Users\\minej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
++        "/home/csharp/.nuget/NuGet/NuGet.Config"
+       ],
+       "originalTargetFrameworks": [
+         "net9.0"
+       ],
+       "sources": {
+-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+-        "C:\\Program Files\\dotnet\\library-packs": {},
+         "https://api.nuget.org/v3/index.json": {}
+       },
+       "frameworks": {
+@@ -52,7 +44,7 @@
+         "auditLevel": "low",
+         "auditMode": "direct"
+       },
+-      "SdkAnalysisLevel": "9.0.300"
++      "SdkAnalysisLevel": "9.0.200"
+     },
+     "frameworks": {
+       "net9.0": {
+@@ -73,7 +65,7 @@
+             "privateAssets": "all"
+           }
+         },
+-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
++        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+       }
+     }
+   }
+Index: NeoGenesis/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\",\"projectName\":\"NeoGenesis\",\"projectPath\":\"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis.csproj\",\"outputPath\":\"C:\\\\Users\\\\minej\\\\OneDrive\\\\Documentos\\\\NeoGenesis\\\\NeoGenesis\\\\NeoGenesis\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"fallbackFolders\":[\"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"],\"originalTargetFrameworks\":[\"net9.0\"],\"sources\":{\"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\":{},\"C:\\\\Program Files\\\\dotnet\\\\library-packs\":{},\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net9.0\":{\"targetAlias\":\"net9.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]},\"restoreAuditProperties\":{\"enableAudit\":\"true\",\"auditLevel\":\"low\",\"auditMode\":\"direct\"},\"SdkAnalysisLevel\":\"9.0.300\"}\"frameworks\":{\"net9.0\":{\"targetAlias\":\"net9.0\",\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\9.0.312/PortableRuntimeIdentifierGraph.json\"}}
+===================================================================
+diff --git a/NeoGenesis/obj/project.packagespec.json b/NeoGenesis/obj/project.packagespec.json
+--- a/NeoGenesis/obj/project.packagespec.json	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/project.packagespec.json	(date 1775858716582)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj","projectName":"NeoGenesis","projectPath":"C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\NeoGenesis.csproj","outputPath":"C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"],"originalTargetFrameworks":["net9.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\dotnet\\library-packs":{},"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net9.0":{"targetAlias":"net9.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"},"SdkAnalysisLevel":"9.0.300"}"frameworks":{"net9.0":{"targetAlias":"net9.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj","projectName":"NeoGenesis","projectPath":"/home/csharp/AH/NeoGenesis/NeoGenesis/NeoGenesis.csproj","packagesPath":"","outputPath":"/home/csharp/AH/NeoGenesis/NeoGenesis/obj/","projectStyle":"PackageReference","originalTargetFrameworks":["net9.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net9.0":{"targetAlias":"net9.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]},"restoreAuditProperties":{"enableAudit":"true","auditLevel":"low","auditMode":"direct"},"SdkAnalysisLevel":"9.0.200"}"frameworks":{"net9.0":{"targetAlias":"net9.0","imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: NeoGenesis/obj/Debug/net9.0/NeoGenesis.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\nbuild_property.TargetFramework = net9.0\nbuild_property.TargetPlatformMinVersion = \nbuild_property.UsingMicrosoftNETSdkWeb = \nbuild_property.ProjectTypeGuids = \nbuild_property.InvariantGlobalization = \nbuild_property.PlatformNeutralAssembly = \nbuild_property.EnforceExtendedAnalyzerRules = \nbuild_property._SupportedPlatformList = Linux,macOS,Windows\nbuild_property.RootNamespace = NeoGenesis\nbuild_property.ProjectDir = C:\\Users\\minej\\OneDrive\\Documentos\\NeoGenesis\\NeoGenesis\\NeoGenesis\\\nbuild_property.EnableComHosting = \nbuild_property.EnableGeneratedComInterfaceComImportInterop = \nbuild_property.EffectiveAnalysisLevelStyle = 9.0\nbuild_property.EnableCodeStyleSeverity = \n
+===================================================================
+diff --git a/NeoGenesis/obj/Debug/net9.0/NeoGenesis.GeneratedMSBuildEditorConfig.editorconfig b/NeoGenesis/obj/Debug/net9.0/NeoGenesis.GeneratedMSBuildEditorConfig.editorconfig
+--- a/NeoGenesis/obj/Debug/net9.0/NeoGenesis.GeneratedMSBuildEditorConfig.editorconfig	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/Debug/net9.0/NeoGenesis.GeneratedMSBuildEditorConfig.editorconfig	(date 1775858716313)
+@@ -8,7 +8,7 @@
+ build_property.EnforceExtendedAnalyzerRules = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = NeoGenesis
+-build_property.ProjectDir = C:\Users\minej\OneDrive\Documentos\NeoGenesis\NeoGenesis\NeoGenesis\
++build_property.ProjectDir = /home/csharp/AH/NeoGenesis/NeoGenesis/
+ build_property.EnableComHosting = 
+ build_property.EnableGeneratedComInterfaceComImportInterop = 
+ build_property.EffectiveAnalysisLevelStyle = 9.0
+Index: NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfo.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//------------------------------------------------------------------------------\n// <auto-generated>\n//     This code was generated by a tool.\n//\n//     Changes to this file may cause incorrect behavior and will be lost if\n//     the code is regenerated.\n// </auto-generated>\n//------------------------------------------------------------------------------\n\nusing System;\nusing System.Reflection;\n\n[assembly: System.Reflection.AssemblyCompanyAttribute(\"NeoGenesis\")]\n[assembly: System.Reflection.AssemblyConfigurationAttribute(\"Debug\")]\n[assembly: System.Reflection.AssemblyFileVersionAttribute(\"1.0.0.0\")]\n[assembly: System.Reflection.AssemblyInformationalVersionAttribute(\"1.0.0\")]\n[assembly: System.Reflection.AssemblyProductAttribute(\"NeoGenesis\")]\n[assembly: System.Reflection.AssemblyTitleAttribute(\"NeoGenesis\")]\n[assembly: System.Reflection.AssemblyVersionAttribute(\"1.0.0.0\")]\n\n// Generado por la clase WriteCodeFragment de MSBuild.\n\n
+===================================================================
+diff --git a/NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfo.cs b/NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfo.cs
+--- a/NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfo.cs	(revision 2bafaf7384f9c3308f60f9dea811a39f22db593b)
++++ b/NeoGenesis/obj/Debug/net9.0/NeoGenesis.AssemblyInfo.cs	(date 1775858716351)
+@@ -13,7 +13,7 @@
+ [assembly: System.Reflection.AssemblyCompanyAttribute("NeoGenesis")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bafaf7384f9c3308f60f9dea811a39f22db593b")]
+ [assembly: System.Reflection.AssemblyProductAttribute("NeoGenesis")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("NeoGenesis")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
