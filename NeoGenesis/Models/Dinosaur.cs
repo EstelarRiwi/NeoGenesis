@@ -19,13 +19,17 @@ public class Dinosaur
     
     [Required]
     [MaxLength(100)]
+    public string Specimen { get; set; }
+    
+
+    [MaxLength(100)]
     public string Type { get; set; }
     
     [Required]
     [MaxLength(100)]
     public string RegisterCode { get; set; }
     
-    [Required]
+    
     [MaxLength(100)]
     public string Location { get; set; }
     
@@ -35,7 +39,7 @@ public class Dinosaur
     {
     }
 
-    public Dinosaur(int id, string name, int age, string specie, string type, string registerCode, string location, Zone zone)
+    public Dinosaur(int id, string name, int age, string specie, string type, string registerCode, string location, string specimen, Zone zone)
     {
         Id = id;
         Name = name;
@@ -44,6 +48,7 @@ public class Dinosaur
         Type = type;
         RegisterCode = registerCode;
         Location = location;
+        Specimen = specimen;
         Zone = zone;
     }
     
