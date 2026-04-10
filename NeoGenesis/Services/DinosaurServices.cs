@@ -1,4 +1,4 @@
-using NeoGenesis.ModelsExample;
+using NeoGenesis.Models;
 using NeoGenesis.Utils;
 
 namespace NeoGenesis.Services
@@ -19,9 +19,9 @@ namespace NeoGenesis.Services
                             
             string name = Validations.ValidateName("\n\n\tGive me a Name: ");
 
-            int age = Validations.ValidateId("\n\n\tGive me an Age: ");
+            int age = Validations.ValidateInteger("\n\n\tGive me an Age: ");
             
-            Driver newDriver = new Driver (id, name, license);
+            Dinosaur newDinosaur = new Dinosaur (id, name, license);
                             
             DbContext.drivers.Add(newDriver);
             DbContext.SaveChanges();
