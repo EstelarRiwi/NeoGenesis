@@ -59,7 +59,8 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             Console.WriteLine("  ║  [1]  add dinosaur           ║");
             Console.WriteLine("  ║  [2]  see dinosaur           ║");
             Console.WriteLine("  ║  [3]  deleted dinosaur       ║");
-            Console.WriteLine("  ║  [4]  exit                   ║");
+            Console.WriteLine("  ║  [4]  deleted dinosaur       ║");
+            Console.WriteLine("  ║  [5]  exit                   ║");
             Console.WriteLine("  ╚══════════════════════════════╝");
             Console.ResetColor();
 
@@ -74,13 +75,18 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             switch (opcion)
             {
                 case 1:
-                    Formulario();
+                
                     break;
                 case 2:
-                    Ver();
                     break;
 
                 case 3:
+                    activacion = false;
+                    break;
+                case 4:
+                    submenu();
+                    break;
+                case 5:
                     activacion = false;
                     break;
 
@@ -91,39 +97,26 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         }
     }
 
-    static void Formulario()
+
+    static void submenu()
     {
-        Console.Clear();
-        Console.WriteLine("REGISTRO DE DINOSAURIO\n");
-
-        Console.Write("Name: ");
-        string name = Console.ReadLine();
-
-        Console.Write("Age: ");
-        int.TryParse(Console.ReadLine(), out int age);
-
-        Console.Write("Specie: ");
-        string specie = Console.ReadLine();
-
-        Console.Write("Type: ");
-        string type = Console.ReadLine();
-
-        Console.Write("RegisterCode: ");
-        string code = Console.ReadLine();
-
-        Console.Write("Location: ");
-        string location = Console.ReadLine();
-
-        Console.WriteLine("\nDatos capturados.");
-        Console.ReadKey();
-    }
-
-    static void Ver()
-    {
-        Console.Clear();
-        Console.WriteLine("(Vista simulada)\n");
-        Console.WriteLine("Aquí irían los datos...");
-        Console.ReadKey();
+        bool activacion = true;
+        while (activacion)
+        {
+            Console.Clear();
+            Console.WriteLine("╔══════════════════════════════════╗");
+            Console.WriteLine("║       GENERAL CONSULTATIONS      ║");
+            Console.WriteLine("╠══════════════════════════════════╣");
+            Console.WriteLine("║  1. List all dinosaurs           ║");
+            Console.WriteLine("║  2. Search dinosaur by ID        ║");
+            Console.WriteLine("║  3. Search by registration code  ║");
+            Console.WriteLine("║  4. List by park zone            ║");
+            Console.WriteLine("║  5. List by park sector          ║");
+            Console.WriteLine("║  0. <- Back to main menu         ║");
+            Console.WriteLine("╚══════════════════════════════════╝");
+            Console.Write("\nSelect an option: ");
+            string opcionSub1 = Console.ReadLine();
+        }
     }
 
     static void Error()
@@ -177,4 +170,5 @@ class Loaded
         Console.WriteLine("\n    COMPLETADO");
         Thread.Sleep(800);
     }
+    
 }
