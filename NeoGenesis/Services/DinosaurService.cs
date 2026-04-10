@@ -13,15 +13,14 @@ public class DinosaurService
         _context = context;
     }
     
-    /*
-    public List<Dinosaur> DetailId(int id)
+    public Dinosaur? DetailId(int id)
     {
         return _context.Dinosaurs
-            .Include(d => d.Name)
-            .Where(d => d.Id = id)
-            .ToList<Dinosaur>();
+            .Include(d => d.Zone)
+            .FirstOrDefault(d => d.Id == id);
 
     }
-    */
+    
+    
 
 }
