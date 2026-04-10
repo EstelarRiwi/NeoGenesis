@@ -105,6 +105,51 @@ namespace NeoGenesis.Utils
                 return id;
             }
         }
+        
+        public static string ValidateType(string message)
+        {
+            while (true)
+            {
+                Console.Write(message);
+                string name = Console.ReadLine()?.Trim() ?? "";
+
+                if (string.IsNullOrEmpty(name))
+                {
+                    Console.WriteLine("Name cannot be empty");
+                    continue;
+                }
+
+                bool isValid = true;
+                bool isValidType = true;
+                
+                foreach (char l in name)
+                {
+                    if (!char.IsLetter(l) && l != ' ' && l != '-')
+                    {
+                        isValid = false;
+                        break;
+                    }
+                }
+
+                if (!name.Contains("Carnivore") || !name.Contains("Herbivore") || !name.Contains("Omnivore"))
+                {
+                    isValidType = false;
+                }
+
+                if (!isValid)
+                {
+                    Console.WriteLine("Name can only contain letters, spaces, or hyphens");
+                    continue;
+                }
+
+                if (!isValidType)
+                {
+                    Console.WriteLine("Type can only be Carnivore, Herbivore or Omnivore");
+                }
+
+                return name;
+            }
+        }
     }
 }
 

@@ -18,9 +18,8 @@ public class Zone
         Dinosaurs = new List<Dinosaur>();
     }
 
-    public Zone(int id, string name, Sector sector)
+    public Zone(string name, Sector sector)
     {
-        Id = id;
         Name = name;
         Sector = sector;
         Dinosaurs = new List<Dinosaur>();

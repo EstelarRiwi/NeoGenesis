@@ -16,9 +16,8 @@ public class Sector
          Zones = new List<Zone>();
      }
 
-     public Sector(int id, string name)
+     public Sector(string name)
      {
-         Id = id;
          Name = name;
          Zones = new List<Zone>();
      }
