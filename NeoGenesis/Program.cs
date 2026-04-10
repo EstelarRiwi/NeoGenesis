@@ -7,7 +7,7 @@ class menu
     {
         bool activacion = true;
 
-        Loaded.Load();
+        Load();
 
         while (activacion)
         {
@@ -75,7 +75,7 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             switch (opcion)
             {
                 case 1:
-                
+
                     break;
                 case 2:
                     break;
@@ -100,8 +100,10 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     static void submenu()
     {
+        LoadSubmenu();
         bool activacion = true;
         while (activacion)
+            
         {
             Console.Clear();
             Console.WriteLine("╔══════════════════════════════════╗");
@@ -116,6 +118,37 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             Console.WriteLine("╚══════════════════════════════════╝");
             Console.Write("\nSelect an option: ");
             string opcionSub1 = Console.ReadLine();
+
+            switch (opcionSub1)
+            {
+                case "0" :
+                {
+                    return;
+                }
+                case "1" :
+                {
+                    break;
+                }
+                case "2" :
+                {
+                    break;
+                }
+                case "3" :
+                {
+                    break;
+                }
+                case "4" :
+                {
+                    break;
+                }
+                case "5" :
+                {
+                    break;
+                }
+                default:
+                    Error();
+                    break;
+            }
         }
     }
 
@@ -124,11 +157,9 @@ BUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         Console.WriteLine("\nOpción inválida");
         Console.ReadKey();
     }
-}
 
-class Loaded
-{
-    public static void Load()
+
+static void Load()
     {
         int progreso = 0;
         int anchoBarra = 30;
@@ -170,5 +201,50 @@ class Loaded
         Console.WriteLine("\n    COMPLETADO");
         Thread.Sleep(800);
     }
-    
+    static void LoadSubmenu()
+    {
+        int progreso = 0;
+        int anchoBarra = 30;
+
+        while (progreso <= 100)
+        {
+            Console.Clear();
+
+            Console.WriteLine(@"                         _   _");
+            Console.WriteLine(@"                        | \ / |");
+            Console.WriteLine(@"                        |  X  |");
+            Console.WriteLine(@"                       /| / \ |\");
+            Console.WriteLine(@"                      / |/   \| \");
+            Console.WriteLine(@"    ________________ /__|______|__\");
+            Console.WriteLine(@"   /________________\  |      |   \");
+            Console.WriteLine(@"   \________________/__|______|____/");
+            Console.WriteLine(@"                    \__|______|__/");
+
+            Console.WriteLine("\n      ACCESSING SECTOR...\n");
+
+            int llenado = (progreso * anchoBarra) / 100;
+            string barra = "[";
+
+            for (int i = 0; i < anchoBarra; i++)
+            {
+                if (i < llenado)
+                    barra += "#";
+                else if (i == llenado)
+                    barra += ">";
+                else
+                    barra += " ";
+            }
+
+            barra += $"] {progreso}%";
+            Console.WriteLine("   " + barra);
+
+            progreso += 2;
+            Thread.Sleep(80);
+        }
+
+        Console.WriteLine("\n    ACCESS GRANTED");
+        Thread.Sleep(800);
+    }
 }
+
+
