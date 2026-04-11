@@ -36,6 +36,14 @@ public class Dinosaur
     public Dinosaur()
     {
     }
+    
+    public Dinosaur(string registerCode, string name, string specie, string specimen)
+    {
+        RegisterCode = registerCode;
+        Name = name;
+        Specie = specie;
+        Specimen = specimen;
+    }
 
     public Dinosaur(string registerCode, string name, string specie, string specimen, int age, string type, string location)
     {
