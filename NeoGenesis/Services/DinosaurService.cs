@@ -65,10 +65,10 @@ public class DinosaurService
             .Count();
     }
 
-    public List<Dinosaur> NoTracking()
+    public List<Dinosaur> NoLocation()
     {
         return _context.Dinosaurs
-            .Where(d => d.Location == null)
+            .Where(d => d.Location == null || d.Location == "")
             .ToList();
     }
     
