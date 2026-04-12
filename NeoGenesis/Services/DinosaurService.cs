@@ -64,6 +64,14 @@ public class DinosaurService
             .Where(d => d.Zone.Sector.Name == sectorName)
             .Count();
     }
+    
+    public List<Dinosaur> NoTraking()
+    {
+        return _context.Dinosaurs
+            .Where(d => d.Location == null || d.Location == "")
+            .ToList();
+        //Aqui me nos falto en el model el traking osea el dispositivo rastreo tonces lo dejo asi para cuadno organice el dbContex
+    }
 
     public List<Dinosaur> NoLocation()
     {
@@ -71,10 +79,14 @@ public class DinosaurService
             .Where(d => d.Location == null || d.Location == "")
             .ToList();
     }
-    
-    
-    
-    
-    
+
+
+    public List<string> ScientificReports()
+    {
+        return _context.Dinosaurs
+            .Select(d => $"Name: {d.Name}, Specie: {d.Specie}, Type: {d.Type},Code: {d.RegisterCode}")
+            .ToList();
+
+    }
 
 }
