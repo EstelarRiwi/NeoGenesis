@@ -31,15 +31,14 @@ public class Dinosaur
     
     
     [MaxLength(100)]
-    public string Location { get; set; }
-    
+    public string? Location { get; set; }
     
     public Zone Zone { get; set; }
 
     public Dinosaur()
     {
     }
-
+    
     public Dinosaur(int id, string name, int age, string specie, string type, string registerCode, string location, string specimen, Zone zone)
     {
         Id = id;
@@ -52,6 +51,7 @@ public class Dinosaur
         Specimen = specimen;
         Zone = zone;
     }
+    
     
 
 }
