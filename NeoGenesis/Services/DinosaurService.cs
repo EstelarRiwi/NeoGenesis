@@ -57,6 +57,24 @@ public class DinosaurService
             .Where(d => d.Zone.Name == zoneName)
             .Count();
     }
+
+    public int CountDinosaurBySector(string sectorName)
+    {
+        return _context.Dinosaurs
+            .Where(d => d.Zone.Sector.Name == sectorName)
+            .Count();
+    }
+
+    public List<Dinosaur> NoTracking()
+    {
+        return _context.Dinosaurs
+            .Where(d => d.Location == null)
+            .ToList();
+    }
+    
+    
+    
+    
     
 
 }
