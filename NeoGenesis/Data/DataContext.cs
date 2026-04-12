@@ -14,6 +14,11 @@ public class DataContext : DbContext
     {
     }
 
+    public DataContext()
+    {
+    }
+    
+
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
         if (!options.IsConfigured)
